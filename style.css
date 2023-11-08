@@ -30,12 +30,26 @@ button:hover {
     border: #6c48aa;
 }
 
+@media (max-width: 640px) {
+    .fonte {
+        font-size: 16px;
+    }
+    .largura {
+        width: 75%;
+        margin: 1rem;
+    }
+}
+
 
 @media (max-width: 1000px ) {
     
 
 .ajuste {
     padding-bottom: 24px;
+    
+}
+.largura {
+    width: 60%;
 }
 
 }
@@ -43,5 +57,8 @@ button:hover {
 @media (min-width: 1366px) {
     .alinhar {
         padding-bottom: 16px;
+    }
+    .largura {
+        width: 35%;
     }
 }
