@@ -4,6 +4,7 @@ body {
 
 
 
+
 .texto-menor {
     font-size: 13px;
     color: white;
@@ -36,18 +37,25 @@ button:hover {
     border: #6c48aa;
 }
 
-@media (max-width: 640px) {
+@media (max-width:640px) {
     .fonte {
         font-size: 16px;
     }
-    .largura {
-        width: 75%;
-        margin: 1rem;
+
+    .fonte2 {
+        padding-top: 10px;
+        font-size: 22px;
     }
+     .largura {
+        width: 70%;
+        margin: 1rem;
+    } 
+
+    
 }
 
 
-@media (max-width: 1000px ) {
+@media (min-width : 640px) and (max-width : 1366px ) {
     
 
 .ajuste {
@@ -55,7 +63,7 @@ button:hover {
     
 }
 .largura {
-    width: 60%;
+    width: 50%;
 }
 
 }
@@ -65,6 +73,6 @@ button:hover {
         padding-bottom: 16px;
     }
     .largura {
-        width: 35%;
+        width:30% ;
     }
 }
