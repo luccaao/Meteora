@@ -1,0 +1,47 @@
+.texto-menor {
+    font-size: 13px;
+    color: white;
+}
+
+.divs-facilidades{
+    width: 325px;
+    color: #DAFF01;
+}
+
+button {
+    background: #9353FF;
+    border: none;
+    color: white;
+    transition: 0.3s;
+
+}
+
+button:hover {
+    background: #5704e7;
+}
+
+.btn {
+    background: #9353FF;
+    border: #9353FF;
+    
+}
+.btn:hover {
+    background: #7349bb;
+    border: #6c48aa;
+}
+
+
+@media (max-width: 1000px ) {
+    
+
+.ajuste {
+    padding-bottom: 24px;
+}
+
+}
+
+@media (min-width: 1366px) {
+    .alinhar {
+        padding-bottom: 16px;
+    }
+}
